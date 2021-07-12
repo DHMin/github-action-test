@@ -8,4 +8,9 @@ public class TestClass {
     void alwaysHappy() {
         Assertions.assertTrue(true);
     }
+
+    @Test
+    void alwaysHappy2() {
+        Assertions.assertTrue(true);
+    }
 }
