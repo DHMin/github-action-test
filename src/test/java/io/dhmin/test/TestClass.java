@@ -13,4 +13,9 @@ public class TestClass {
     void alwaysHappy2() {
         Assertions.assertTrue(true);
     }
+
+    @Test
+    void thisIsUnhappy() {
+        Assertions.assertTrue(false);
+    }
 }
